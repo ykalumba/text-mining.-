@@ -47,10 +47,10 @@ To enhance the model's adaptability to various legal document formats, a robust 
  The legal texts were tokenized into words (smaller units) to support NLP analysis, with the tokenisation strategy considering the specialized terms and 
  phrases that carry significant legal meaning. 
 
- ### b. Stopword Removal
+ #### b. Stopword Removal
  Common legal stopwords that add little meaning were identified and removed to reduce noise and help the model focus on substantive legal content.
 
- ### c. Lemmatization
+ #### c. Lemmatization
  Lemmatization was applied to reduce legal terms to their base forms, ensuring uniform treatment of different inflections 
  and improving the accuracy of legal language analysis.
 
