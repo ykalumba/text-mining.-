@@ -10,7 +10,7 @@ insights gained from the experimentation process.
 Keywords: Legal Document Classification (fraud, misrepresentation, non-disclosure, claims procedure/handling, indemnity), NLP, Machine Learning, Data Preprocessing, 
 Performance Analysis, Compliance, Feedback. 
 
-# 1.	Introduction
+### 1.	Introduction
 Legal document analysis is an essential aspect of legal practice but typically requires substantial time and human effort. 
 This study introduces an innovative approach to automating this process through advanced Natural Language Processing (NLP) and deep learning techniques. 
 The motivation arises from the growing volume of legal documents and the need to improve efficiency and accuracy in their management.
@@ -24,7 +24,7 @@ This section provides a detailed overview of the methodology, emphasizing the pr
 It examines the selection of specific NLP techniques and deep learning architectures, along with the rationale behind these choices. 
 Additionally, it discusses the preprocessing strategies employed to ensure the model’s adaptability to diverse legal document formats.
 
-# 2.1 Data Collection
+### 2.1 Data Collection
 To train and evaluate the model, reference is made to the INSURANCE CASES DIGEST VOLUME 1, 2025 obtained from the Insurance Regulatory Authority of Uganda, 
 a body instituted with the primary objective of promoting and facilitating the maintenance of a sound, effective, fair, transparent and stable insurance sector in Uganda. 
 The Insurance Cases Digest contains a broad collection of legal documents, including court judgments, legal opinions, and statutes. 
@@ -33,24 +33,24 @@ jurisprudence development.
 It serves as a quick reference of landmark cases from courts, the Insurance Appeals Tribunal and the Complaints Bureau that have shaped insurance law and practice. 
 Its selection was motivated by the richness and variety of its content, providing a representative sample of the linguistic and structural variations found in legal texts.
 
-# 2.2 Data Cleaning
+### 2.2 Data Cleaning
 Prior to model development, the data underwent a thorough cleaning process to ensure its quality, consistency and reliability.
 
- # a. Unique Character Analysis
+ ##### a. Unique Character Analysis
 Analysis of legal texts identified special characters, symbols and formatting elements that lacked semantic value. 
 By removing or encoding unique characters, the focus shifted to linguistic content. Examples include links, numbers and miscellaneous symbols. 
 
-# 2.3.Preprocessing for NLP 
+### 2.3.Preprocessing for NLP 
 To enhance the model's adaptability to various legal document formats, a robust preprocessing pipeline was implemented.
 
- # a. Tokenization
+ #### a. Tokenization
  The legal texts were tokenized into words (smaller units) to support NLP analysis, with the tokenisation strategy considering the specialized terms and 
  phrases that carry significant legal meaning. 
 
- # b. Stopword Removal
+ ### b. Stopword Removal
  Common legal stopwords that add little meaning were identified and removed to reduce noise and help the model focus on substantive legal content.
 
- # c. Lemmatization
+ ### c. Lemmatization
  Lemmatization was applied to reduce legal terms to their base forms, ensuring uniform treatment of different inflections 
  and improving the accuracy of legal language analysis.
 
@@ -64,7 +64,7 @@ been paid but claim settlement was delayed.
 The findings further showed that fraud was the leading contributing factor to these delays, followed by misrepresentation.
 
 # 4. Discussion
- # 4.1.Precision, Recall, and F1-Score  
+ ### 4.1.Precision, Recall, and F1-Score  
 Precision: Reflects the accuracy of positive predictions. For instance, the model achieves high precision for 'claims procedure' (0.95), 
 indicating that when it predicts this class, it is usually correct. 
 
