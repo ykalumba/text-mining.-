@@ -1,6 +1,6 @@
 # Classification of Insurance Legal Documents Using NLP and Deep Learning Approaches
 
- # Abstract
+ ### Abstract
 
 This study explores the use of NLP and deep learning to analyze and classify legal documents, aiming to build an intelligent system that automates legal text organization 
 and enhances workflow efficiency. 
