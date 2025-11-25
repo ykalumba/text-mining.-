@@ -64,7 +64,7 @@ been paid but claim settlement was delayed.
 The findings further showed that fraud was the leading contributing factor to these delays, followed by misrepresentation.
 
 # 4. Discussion
- ### 4.1.Precision, Recall, and F1-Score  
+ #### 4.1. Precision, Recall, and F1-Score  
 Precision: Reflects the accuracy of positive predictions. For instance, the model achieves high precision for 'claims procedure' (0.95), 
 indicating that when it predicts this class, it is usually correct. 
 
