@@ -89,4 +89,4 @@ The overall accuracy is 88%, indicating the proportion of correctly classified i
 However, the macro and weighted averages for precision, recall, and F1-score suggest that the model's performance greatly varied, 
 emphasizing the need for further investigation, especially in addressing class imbalances and improving classification for certain classes. 
 
-The report serves as a valuable tool for understanding the model's strengths and weaknesses, guiding potential refinements for enhanced performance in legal compliaince regulations. 
+The report serves as a valuable tool for understanding the model's strengths and weaknesses, guiding potential refinements for enhanced performance in legal compliance regulations. 
