@@ -14,8 +14,10 @@ Performance Analysis, Compliance, Feedback.
 Legal document analysis is an essential aspect of legal practice but typically requires substantial time and human effort. 
 This study introduces an innovative approach to automating this process through advanced Natural Language Processing (NLP) techniques. 
 The motivation arises from the growing volume of legal documents and the need to improve efficiency and accuracy in their management.
+
 Legal practitioners increasingly face large collections of documents such as contracts, case law, legal opinions, and statutes creating a pressing demand for 
-automated tools to streamline the review process. Traditional methods often fall short, leading to delays and potential omissions. 
+automated tools to streamline the review process. 
+Traditional methods often fall short, leading to delays and potential omissions. 
 The proposed solution utilizes NLP and deep learning to develop an intelligent system capable of understanding, classifying, 
 and extracting meaningful insights from diverse legal texts.
 
@@ -28,8 +30,10 @@ Additionally, it discusses the preprocessing strategies employed to ensure the m
 To train and evaluate the model, reference is made to the INSURANCE CASES DIGEST VOLUME 1, 2025 obtained from the Insurance Regulatory Authority of Uganda, 
 a body instituted with the primary objective of promoting and facilitating the maintenance of a sound, effective, fair, transparent and stable insurance sector in Uganda. 
 The Insurance Cases Digest contains a broad collection of legal documents, including court judgments, legal opinions, and statutes. 
+
 The Digest informs readers on contemporary insurance issues, offering insights into the Authority’s mandate, competition and consumer protection law and 
 jurisprudence development. 
+
 It serves as a quick reference of landmark cases from courts, the Insurance Appeals Tribunal and the Complaints Bureau that have shaped insurance law and practice. 
 Its selection was motivated by the richness and variety of its content, providing a representative sample of the linguistic and structural variations found in legal texts.
 
