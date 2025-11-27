@@ -2,7 +2,7 @@
 
  ### Abstract
 
-This study explores the use of NLP and deep learning to analyze and classify legal documents, aiming to build an intelligent system that automates legal text organization 
+This study explores the use of NLP to analyze and classify legal documents, aiming to build an intelligent system that automates legal text organization 
 and enhances workflow efficiency. 
 The novel approach outlines the motivation, methodology, experiments, and results of the proposed approach, emphasizing the importance of a thorough evaluation and the 
 insights gained from the experimentation process.
@@ -58,9 +58,11 @@ To enhance the model's adaptability to various legal document formats, a robust 
 The model adopts a systematic approach to model selection using a Logistic Regression classifier. 
 A pipeline structure streamlines both preprocessing and modelling processes, yielding a performance score of 87.87%. 
 Among the analysed categories, “claims procedure” demonstrated the strongest predictive performance. 
+
 To enhance interpretability, the model leveraged Eli5, LIME, and SHAP, which consistently identified influential features such as claims, payment, payable, delays, 
 premium and settlement. These insights indicate that the Digest captured recurring discrepancies in insurers’ claims procedures, particularly cases where premiums had 
 been paid but claim settlement was delayed. 
+
 The findings further showed that fraud was the leading contributing factor to these delays, followed by misrepresentation.
 
 # 4. Discussion
@@ -72,15 +74,16 @@ However, some classes like "misrepresentation, fraud & indemnity" (0.00) have a 
 Recall: Represents the model's ability to capture all positive instances. 
 
 High recall values, such as for 'Miscellaneuous' (1.00), indicate effective identification of true positives. 
+
 The implication is that the model is over-predicting certain classes while failing to discriminate accurately between closely related legal themes. 
 However, classes like 'misrepresentation', ‘indemnity‘ and 'fraud’ have a recall of 0.00, suggesting that the model struggles to identify instances of these classes. 
 F1-Score: The harmonic means of precision and recall. It provides a balanced measure of a model's overall performance. 
 
-High F1 scores are observed for 'Miscellaneuous' (0.93) and 'claims procedure' (0.72).
-While the model demonstrates high precision and recall for some classes. 
+High F1 scores are observed for 'Miscellaneuous' (0.93) and 'claims procedure' (0.72). While the model demonstrates high precision and recall for some classes. 
 The overall accuracy is 88%, indicating the proportion of correctly classified instances. 
 
 However, the macro and weighted averages for precision, recall, and F1-score suggest that the model's performance greatly varied, 
 emphasizing the need for further investigation, especially in addressing class imbalances and improving classification for certain classes. 
+
 The report serves as a valuable tool for understanding the model's strengths and weaknesses, guiding potential refinements for enhanced performance in legal document 
 classification. 
