@@ -68,15 +68,15 @@ The findings further showed that fraud was the leading contributing factor to th
 Precision: Reflects the accuracy of positive predictions. For instance, the model achieves high precision for 'claims procedure' (0.95), 
 indicating that when it predicts this class, it is usually correct. 
 
-However, some classes like ' misrepresentation, fraud & indemnity' (0.00) have a very low precision. 
+However, some classes like "misrepresentation, fraud & indemnity" (0.00) have a very low precision. 
 Recall: Represents the model's ability to capture all positive instances. 
 
-High recall values, such as for 'Miscellaneuous ' (1.00), indicate effective identification of true positives. 
+High recall values, such as for 'Miscellaneuous' (1.00), indicate effective identification of true positives. 
 The implication is that the model is over-predicting certain classes while failing to discriminate accurately between closely related legal themes. 
 However, classes like 'misrepresentation', ‘indemnity‘ and 'fraud’ have a recall of 0.00, suggesting that the model struggles to identify instances of these classes. 
 F1-Score: The harmonic means of precision and recall. It provides a balanced measure of a model's overall performance. 
 
-High F1 scores are observed for ' Miscellaneuous' (0.93) and 'claims procedure' (0.72).
+High F1 scores are observed for 'Miscellaneuous' (0.93) and 'claims procedure' (0.72).
 While the model demonstrates high precision and recall for some classes. 
 The overall accuracy is 88%, indicating the proportion of correctly classified instances. 
 
