@@ -12,7 +12,7 @@ Performance Analysis, Compliance, Feedback.
 
 ### 1.	Introduction
 Legal document analysis is an essential aspect of legal practice but typically requires substantial time and human effort. 
-This study introduces an innovative approach to automating this process through advanced Natural Language Processing (NLP) and deep learning techniques. 
+This study introduces an innovative approach to automating this process through advanced Natural Language Processing (NLP) techniques. 
 The motivation arises from the growing volume of legal documents and the need to improve efficiency and accuracy in their management.
 Legal practitioners increasingly face large collections of documents such as contracts, case law, legal opinions, and statutes creating a pressing demand for 
 automated tools to streamline the review process. Traditional methods often fall short, leading to delays and potential omissions. 
