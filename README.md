@@ -1,4 +1,4 @@
-# Classification of Insurance Legal Documents Using NLP and Deep Learning Approaches
+# Classification of Insurance Legal Documents Using Natural Language Processing (NLP) and Deep Learning Approaches
 
  ### Abstract
 
