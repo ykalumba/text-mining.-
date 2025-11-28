@@ -21,7 +21,7 @@ Traditional methods often fall short, leading to delays and potential omissions.
 The proposed solution utilizes NLP and deep learning to develop an intelligent system capable of understanding, classifying, 
 and extracting meaningful insights from diverse legal texts.
 
-# 2. Proposed Methodology
+### 2. Proposed Methodology
 This section provides a detailed overview of the methodology, emphasizing the practical implementation of the proposed solution. 
 It examines the selection of specific NLP techniques and deep learning architectures, along with the rationale behind these choices. 
 Additionally, it discusses the preprocessing strategies employed to ensure the model’s adaptability to diverse legal document formats.
